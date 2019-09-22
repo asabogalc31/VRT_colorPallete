@@ -8,9 +8,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 	<link href="styles.css" type="text/css" rel="stylesheet">
-
-	
-	
 </head>
 	<body>
 	
@@ -41,23 +38,18 @@
 
 		<div id ="css-rules-div">
 			<h2> Reglas CSS</h2> 
-			<textarea id="css-rules" class="rules"> 
-.website-background{ color: #FFFFFF;}
-
+			<textarea id="css-rules" class="rules">.website-background{ color: #FFFFFF;}
 .element-text{ color: #FFFFFF;}
-
 .element-border{ border-color: #FFFFFF;}
-
 .element-background{ background-color: #FFFFFF;}
-
 .header{ color: #FFFFFF;}
 			</textarea>
 		</div>
 		
 		
 		<div id="actions">
-			<button> Generar nueva paleta</button>
-			<button> Limpiar paleta</button>
+			<button onclick="randomPalette()">Generar nueva paleta</button>
+			<button onclick="cleanPalette()">Limpiar paleta</button>
 		</div>
 	</body>
 
